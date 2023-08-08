@@ -21,6 +21,7 @@ public class Carpa implements Serializable{
     private int cantidadPersonas;
     private String clave;
     private String atributoEjemplo;
+    private String atributoRama;
 
     public Carpa() {
         listaPersonas = new LSE<>();
